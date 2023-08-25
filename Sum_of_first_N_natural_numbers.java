@@ -2,11 +2,10 @@ import java.util.*;
 public class code{
     public static void main(String[] args){
         Scanner my = new Scanner(System.in);
-        int n = my.nextInt();
-        int sum=0;
-        for(int i=n;i>=1;i--){
+        int sum=0,i,n = my.nextInt();
+        for(i=1;i<=n;i++){
             sum+=i;
         }
-        System.out.print(sum);
+        System.out.println(sum);
     }
 }
